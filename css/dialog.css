@@ -1,14 +1,27 @@
 /* Popup box used by the add-task and add-event dialogs.
    Linked from index.html and calendar.html. */
-
+:root {
+  --BGTop: #FCFDFB;
+  --textheader: #252e30;
+  --bgcolor: #efEFEF;
+  --hoverside: #2a6b52;
+  --buttonambient: #2f6b57;
+  --buttonhover: #245542;
+  --buttontext: #f7fcf9;
+  --borderhue: #C9D3CB;
+  --greyish: #5d6963;
+  --carnage: #B3402F;
+  --greyisher: #424644;
+  --flowery: #FEE502; /* a great style*/
+}
 .task-dialog {
-    border: 1px solid #E1E7E0;
+    border: 1px solid var(--borderhue);
     border-radius: 16px;
     padding: 28px;
     width: 90%;
     max-width: 420px;
-    background-color: #FCFDFB;
-    color: #20302A;
+    background-color: var(--BGTop);
+    color: var(--greyish);
     font-family: 'Inter', sans-serif;
     box-shadow: 0 12px 40px rgba(32, 48, 42, 0.25);
 }
@@ -35,17 +48,17 @@
     width: 100%;
     box-sizing: border-box;
     padding: 12px;
-    border: 1px solid #C9D3CB;
+    border: 1px solid var(--borderhue);
     border-radius: 8px;
-    background-color: #FCFDFB;
-    color: #20302A;
+    background-color: var(--BGTop);
+    color: var(--greyish);
     font: inherit;
 }
 
 .task-dialog input[type="text"]:focus,
 .task-dialog input[type="date"]:focus,
 .task-dialog input[type="time"]:focus {
-    outline: 2px solid #2F6B57;
+    outline: 2px solid var(--buttonambient);
     outline-offset: 2px;
 }
 
@@ -60,7 +73,7 @@
 }
 
 .dialog-error {
-    color: #B3402F;
+    color: var(--carnage);
     font-size: 13px;
     margin: 8px 0 0;
     min-height: 18px;
@@ -75,10 +88,10 @@
 
 .dialog-cancel {
     padding: 10px 18px;
-    border: 1px solid #C9D3CB;
+    border: 1px solid var(--borderhue);
     border-radius: 10px;
     background-color: transparent;
-    color: #20302A;
+    color: var(--greyish);
     font: inherit;
     font-size: 14px;
     cursor: pointer;
@@ -92,8 +105,8 @@
     padding: 10px 18px;
     border: none;
     border-radius: 10px;
-    background-color: #2F6B57;
-    color: #FCFDFB;
+    background-color: var(--buttonambient);
+    color: var(--BGTop);
     font: inherit;
     font-size: 14px;
     font-weight: 600;
@@ -101,7 +114,7 @@
 }
 
 .dialog-save:hover {
-    background-color: #245542;
+    background-color: var(--buttonhover);
 }
 
 @media (max-width: 700px) {
