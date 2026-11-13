@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
-
-:root {
+@import "thememaster.css";
+root,
+/*[Data-theme="default"] {
   --BGTop: #FCFDFB;
   --textheader: #252e30;
   --bgcolor: #efEFEF;
@@ -9,7 +10,36 @@
   --buttonhover: #245542;
   --buttontext: #f7fcf9;
   --borderhue: #C9D3CB;
+  --greyish: #5d6963;
+  --carnage: #B3402F;
+  --greyisher: #424644;
 }
+[Data-theme="dark"] {
+  --BGTop: rgb(2, 6, 2);
+  --textheader: #d3d6d6;
+  --bgcolor: rgb(28, 27, 28);
+  --hoverside: #2a6b52;
+  --buttonambient: #245542;
+  --buttonhover: #2f6b57;
+  --buttontext: rgb(0, 0, 0);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: #5d6963;
+  --carnage: #B3402F;
+  --greyisher: #424644;
+}
+[Data-theme="garish"] {
+  --BGTop: rgb(197, 72, 187);
+  --textheader: rgb(197, 26, 26);
+  --bgcolor: rgb(67, 109, 34);
+  --hoverside: rgb(255, 67, 161);
+  --buttonambient: rgb(36, 85, 66);
+  --buttonhover: rgb(255, 251, 0);
+  --buttontext: rgb(201, 144, 21);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(36, 67, 168);
+  --carnage: rgb(19, 18, 18);
+  --greyisher: rgb(131, 78, 29);
+}*/
 .top-bar {
     display: flex;
     align-items: center;
@@ -78,8 +108,8 @@ h1, h2, h3 {
 }
 
 .signup-card {
+    border: 1px solid var(--borderhue);
     background-color: var(--BGTop);
-    border: 1px solid --borderhue;
     border-radius: 16px;
     padding: 32px;
 }
@@ -109,6 +139,7 @@ h1, h2, h3 {
 .form-group label {
     font-size: 14px;
     font-weight: 600;
+    color: var(hoverside)
 }
 
 .form-group input {

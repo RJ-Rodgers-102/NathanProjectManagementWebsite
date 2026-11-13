@@ -1,0 +1,96 @@
+/*repository for all of the color themes*/
+
+
+:root,
+[Data-theme="default"] {
+  --BGTop: #FCFDFB;
+  --textheader: #252e30;
+  --bgcolor: #efEFEF;
+  --hoverside: #2a6b52;
+  --buttonambient: #2f6b57;
+  --buttonhover: #245542;
+  --buttontext: #f7fcf9;
+  --borderhue: #C9D3CB;
+  --greyish: #5d6963;
+  --carnage: #B3402F;
+  --greyisher: #424644;
+}
+[Data-theme="dark"] {
+  --BGTop: rgb(2, 6, 2);
+  --textheader: #d3d6d6;
+  --bgcolor: rgb(28, 27, 28);
+  --hoverside: #2a6b52;
+  --buttonambient: #245542;
+  --buttonhover: #2f6b57;
+  --buttontext: rgb(0, 0, 0);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: #5d6963;
+  --carnage: #B3402F;
+  --greyisher: #424644;
+}
+
+[Data-theme="moss"]{
+  --BGTop: rgb(48, 73, 48);
+  --textheader: rgb(153, 129, 135);
+  --bgcolor: rgb(2, 19, 2);
+  --hoverside: rgb(96, 97, 187);
+  --buttonambient: rgb(16, 63, 45);
+  --buttonhover: rgb(35, 97, 73);
+  --buttontext: rgb(131, 145, 53);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(93, 105, 99);
+  --carnage: rgb(179, 64, 47);
+  --greyisher: rgb(66, 70, 68);
+}
+[Data-theme="meadow"]{
+  --BGTop: rgb(28, 156, 28);
+  --textheader: rgb(50, 70, 6);
+  --bgcolor: rgb(99, 206, 99);
+  --hoverside: rgb(7, 8, 53);
+  --buttonhover: rgb(16, 63, 45);
+  --buttonambient: rgb(35, 97, 73);
+  --buttontext: rgb(187, 211, 50);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(93, 105, 99);
+  --carnage: rgb(179, 64, 47);
+  --greyisher: rgb(66, 70, 68);
+}
+[Data-theme="fall"]{
+  --BGTop: rgb(190, 188, 34);
+  --textheader: rgb(187, 73, 28);
+  --bgcolor: rgb(192, 126, 72);
+  --hoverside: rgb(96, 97, 187);
+  --buttonambient: rgb(170, 59, 53);
+  --buttonhover: rgb(140,50,45);
+  --buttontext: rgb(202, 152, 111);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(93, 105, 99);
+  --carnage: rgb(5, 39, 151);
+  --greyisher: rgb(66, 70, 68);
+}
+[Data-theme="reef"]{
+  --BGTop: rgb(192, 158, 199);
+  --textheader: rgb(37, 36, 30);
+  --bgcolor: rgb(47, 98, 165);
+  --hoverside: rgb(96, 97, 187);
+  --buttonambient: rgb(105, 40, 209);
+  --buttonhover: rgb(69, 23, 112);
+  --buttontext: rgb(205, 218, 209);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(93, 105, 99);
+  --carnage: rgb(5, 39, 151);
+  --greyisher: rgb(66, 70, 68);
+}
+[Data-theme="garish"] {
+  --BGTop: rgb(197, 72, 187);
+  --textheader: rgb(197, 26, 26);
+  --bgcolor: rgb(67, 109, 34);
+  --hoverside: rgb(255, 67, 161);
+  --buttonambient: rgb(36, 85, 66);
+  --buttonhover: rgb(255, 251, 0);
+  --buttontext: rgb(221, 29, 29);
+  --borderhue: rgb(40, 50, 40);
+  --greyish: rgb(36, 67, 168);
+  --carnage: rgb(19, 18, 18);
+  --greyisher: rgb(131, 78, 29);
+}
