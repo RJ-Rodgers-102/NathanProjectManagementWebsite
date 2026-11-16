@@ -1,6 +1,6 @@
 /* Popup box used by the add-task and add-event dialogs.
    Linked from index.html and calendar.html. */
-:root {
+/*:root {
   --BGTop: #FCFDFB;
   --textheader: #252e30;
   --bgcolor: #efEFEF;
@@ -12,8 +12,8 @@
   --greyish: #5d6963;
   --carnage: #B3402F;
   --greyisher: #424644;
-  --flowery: #FEE502; /* a great style*/
-}
+  --flowery: #FEE502; /* a great style* */
+@import "thememaster.css";
 .task-dialog {
     border: 1px solid var(--borderhue);
     border-radius: 16px;

@@ -43,9 +43,9 @@
   --greyisher: rgb(66, 70, 68);
 }
 [Data-theme="meadow"]{
-  --BGTop: rgb(28, 156, 28);
-  --textheader: rgb(50, 70, 6);
-  --bgcolor: rgb(99, 206, 99);
+  --BGTop: rgb(27, 112, 27);
+  --textheader: rgb(19, 27, 3);
+  --bgcolor: rgb(80, 165, 80);
   --hoverside: rgb(7, 8, 53);
   --buttonhover: rgb(16, 63, 45);
   --buttonambient: rgb(35, 97, 73);
@@ -81,6 +81,36 @@
   --carnage: rgb(5, 39, 151);
   --greyisher: rgb(66, 70, 68);
 }
+[Data-theme="scarlet"]{
+  --BGTop: #C00080;
+  --textheader: #413E59;
+  --bgcolor: rgb(32, 32, 64);
+  --hoverside: rgb(96, 97, 187);
+  --buttonambient: #E02040;
+  --buttonhover: #A00080;
+  --buttontext: #413E59;
+  --borderhue: #A00080;
+  --greyish: rgb(93, 105, 99);
+  --carnage: rgb(5, 39, 151);
+  --greyisher: rgb(66, 70, 68);
+}
+
+[Data-theme="flowery"]{ /*a great style*/
+  --BGTop: #FEE502;
+  --textheader: #0d0f08;
+  --bgcolor: #FFF06F;
+  --hoverside: rgb(96, 97, 187);
+  --buttonhover: #736A3C;
+  --buttonambient: #DF7332;
+  --buttontext: #413E59;
+  --borderhue: #6FA626;
+  --greyish: #6FA626;
+  --carnage: rgb(5, 39, 151);
+  --greyisher: rgb(66, 70, 68);
+}
+
+
+
 [Data-theme="garish"] {
   --BGTop: rgb(197, 72, 187);
   --textheader: rgb(197, 26, 26);
@@ -89,7 +119,7 @@
   --buttonambient: rgb(36, 85, 66);
   --buttonhover: rgb(255, 251, 0);
   --buttontext: rgb(221, 29, 29);
-  --borderhue: rgb(40, 50, 40);
+  --borderhue: #6FA626;
   --greyish: rgb(36, 67, 168);
   --carnage: rgb(19, 18, 18);
   --greyisher: rgb(131, 78, 29);

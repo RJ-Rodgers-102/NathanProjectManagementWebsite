@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
-
-:root {
+@import "thememaster.css";
+/*:root {
   --BGTop: #FCFDFB;
   --textheader: #252e30;
   --bgcolor: #efEFEF;
@@ -12,7 +12,7 @@
   --greyish: #5d6963;
   --carnage: #B3402F;
   --greyisher: #424644;
-}
+}*/
 .top-bar {
     display: flex;
     align-items: center;
@@ -144,8 +144,8 @@ h1, h2, h3 {
 }
 
 .calendar-panel {
-    background-color: #FCFDFB;
-    border: 1px solid #E1E7E0;
+    background-color: var(--BGTop);
+    border: 1px solid var(--borderhue);
     border-radius: 16px;
     padding: 24px;
 }
@@ -213,8 +213,8 @@ h1, h2, h3 {
 }
 
 .calendar-day.muted {
-    background-color: var(--borderhue);
-    color: var(--textheader);
+    background-color: var(--buttonambient);
+    color: var(--BGTop);
 }
 
 @media (max-width: 700px) {

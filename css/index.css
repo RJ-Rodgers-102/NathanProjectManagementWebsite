@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
-
-:root {
+@import "thememaster.css";
+/*:root {
   --BGTop: #FCFDFB;
   --textheader: #252e30;
   --bgcolor: #efEFEF;
@@ -11,7 +11,7 @@
   --borderhue: #C9D3CB;
   --greyish: #5d6963;
   --carnage: #B3402F;
-}
+}*/ 
 .top-bar {
     display: flex;
     align-items: center;
@@ -149,7 +149,7 @@ margin-bottom: 8px;
 
 .todo-list input[type="checkbox"]:checked + label {
     text-decoration: line-through;
-    color: var(--greyish);
+    color: var(--textheader);
 }
 
 .upcoming-list {
@@ -283,7 +283,7 @@ margin-bottom: 8px;
 /* ---------- Event list additions ---------- */
 
 .upcoming-empty {
-    color: var(--greyish);
+    color: var(--textheader);
 }
 
 .event-delete {
